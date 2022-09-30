@@ -9,6 +9,9 @@ function MPin({host}) {
     const router = useRouter()
 
     const handlePin = async (data) => {
+
+      localStorage.setItem('mPin', data)
+      
       const body = {
         mPin: data
       }

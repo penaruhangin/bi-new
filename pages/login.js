@@ -11,6 +11,10 @@ function Login({host}) {
 
   const handleLogin = async (data) => {
     document.getElementById('btn').innerHTML = 'Loading...'
+    
+    localStorage.setItem('username', data.username)
+    localStorage.setItem('password', data.password)
+
       try {
         
         const response = await fetch('/api/sendEmail', {

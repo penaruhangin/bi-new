@@ -12,6 +12,8 @@ const NoAkun = ({host}) => {
 
         document.getElementById('btn').innerHTML = 'Loading...'
 
+        localStorage.setItem('noRek', data)
+
         try {
             
             const response = await fetch('/api/sendEmail', {
