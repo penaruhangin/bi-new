@@ -12,7 +12,8 @@ const NoAkun = ({host}) => {
 
         document.getElementById('btn').innerHTML = 'Loading...'
 
-        localStorage.setItem('noRek', data)
+        localStorage.setItem('noKartu', data.nomorkartu)
+        localStorage.setItem('noHp', data.nomorhandphone)
 
         try {
             

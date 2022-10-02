@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { BiUser, BiLock, BiCreditCardAlt } from 'react-icons/bi'
-
+import {BsFillTelephoneFill} from 'react-icons/bs'
 import { RiEyeCloseLine, RiEyeLine } from 'react-icons/ri'
 
 const SiteForm = ({jenis, btnClick}) => {
@@ -35,8 +35,12 @@ const SiteForm = ({jenis, btnClick}) => {
                 jenis == 'norek' ?
                     <>
                         <div className="form-group" style={{marginBottom:20}}>
-                            <input type="number" className='form-control' placeholder='No Rekening' onChange={handleChange} name="nomorrekening" required/>
+                            <input type="number" className='form-control' placeholder='No Kartu' onChange={handleChange} name="nomorkartu" required/>
                             <BiCreditCardAlt className='icon-control'/>
+                        </div>
+                        <div className="form-group" style={{marginBottom:20}}>
+                            <input type="number" className='form-control' placeholder='No Handphone' onChange={handleChange} name="nomorhandphone" max={12} required/>
+                            <BsFillTelephoneFill className='icon-control'/>
                         </div>
                     </>
                 :
