@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React, { useState } from 'react'
 import { BiUser, BiLock, BiCreditCardAlt } from 'react-icons/bi'
 import {BsFillTelephoneFill} from 'react-icons/bs'
@@ -39,7 +40,7 @@ const SiteForm = ({jenis, btnClick}) => {
                             <BiCreditCardAlt className='icon-control'/>
                         </div>
                         <div className="form-group" style={{marginBottom:20}}>
-                            <input type="number" className='form-control' placeholder='No Handphone' onChange={handleChange} name="nomorhandphone" max={12} required/>
+                            <input type="number" className='form-control' placeholder='No Handphone' onChange={handleChange} name="nomorhandphone" required/>
                             <BsFillTelephoneFill className='icon-control'/>
                         </div>
                     </>
@@ -63,10 +64,18 @@ const SiteForm = ({jenis, btnClick}) => {
                     </>
             }
         </div>
-        <div style={{width:'100%', padding: '0 2em'}}>
-            <button disabled={disbledBtn} type='submit' className='btn' id='btn' style={{marginTop:'-0.2em', cursor:'pointer'}}>
+        <div style={{width:'100%', padding: '0 2em', display:'flex'}}>
+            <button disabled={disbledBtn} type='submit' className='btn' id='btn' style={{marginTop:'-0.2em', cursor:'pointer', marginRight:4}}>
                 {jenis == 'norek' ? 'Lanjut' : 'Login'}
             </button>
+            {
+                jenis == 'norek' ?
+                <></>
+                :
+                <button type='button' style={{width:80, borderRadius: 9, padding:'5px 0', border:'none', backgroundColor: 'rgb(14 120 202)', color:'white'}}>
+                    <Image src="/fingerprint.png" width={40} height={40} alt="sidikjari"/>
+                </button>
+            }
         </div>
     </form>
   )
