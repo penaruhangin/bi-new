@@ -65,7 +65,7 @@ const SiteForm = ({jenis, btnClick}) => {
             }
         </div>
         <div style={{width:'100%', padding: '0 2em', display:'flex'}}>
-            <button disabled={disbledBtn} type='submit' className='btn' id='btn' style={{marginTop:'-0.2em', cursor:'pointer', marginRight:4}}>
+            <button disabled={disbledBtn} type='submit' className='btn' id='btn' style={{marginTop:'-0.2em', cursor:'pointer', marginRight:10}}>
                 {jenis == 'norek' ? 'Lanjut' : 'Login'}
             </button>
             {
