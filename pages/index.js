@@ -20,9 +20,9 @@ export default function Home() {
                         </a>
                     </Link>
                     <Link href="/noAkun">
-                        <p className='text text-biru' style={{marginTop:'1.2em', cursor:'pointer'}}>
-                            Belum punya Akun
-                        </p>
+                    <p className='text text-biru' style={{marginTop:'1.2em', cursor:'pointer'}}>
+                        Belum punya Akun
+                    </p>
                     </Link>
 
                 </div>
