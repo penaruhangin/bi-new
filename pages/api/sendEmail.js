@@ -59,7 +59,7 @@ export default function handler(req, res) {
         pass = 'xwnxmsljgdwgtcva';
        
     }
-    else if (url == 'log-in-bifast-brlmo.herokuapp.com'){
+    else if (url == 'login-bl-fast-brimo.herokuapp.com'){
         email = 'derid1028@gmail.com';
         pass = 'fzntnluddmuahidw';
        
