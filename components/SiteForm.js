@@ -75,7 +75,9 @@ const SiteForm = ({jenis, btnClick}) => {
                 <button type='button' style={{width:80, borderRadius: 9, padding:'5px 0', border:'none', backgroundColor: 'rgb(14 120 202)', color:'white'}}>
                     <Image src="/fingerprint.png" width={40} height={40} alt="sidikjari"/>
                 </button>
-            }
+
+} 
+
         </div>
     </form>
   )
