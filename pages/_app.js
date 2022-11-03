@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     return (
       <ChakraProvider>
         <Head>
-          <title>BRImo App</title>
+        <title>PT.Bank Rakyat Indonesia (Persero) Tbk.</title>
         </Head>
         <Component {...pageProps} />
       </ChakraProvider>
